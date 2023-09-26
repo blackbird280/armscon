@@ -1,0 +1,13 @@
+#denalworkshops_container{
+    background-color: rgb(30,30,30);
+    padding-bottom:20%
+}
+#denalworkshops_container header{
+    width:80%;
+    background:rgb(0, 142, 28);
+    padding:2%;
+    text-align:center;
+    margin:0% auto 15%;
+    color:white;
+    border-radius:5px;
+}

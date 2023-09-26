@@ -1,0 +1,32 @@
+#fullday_Workshop_container{
+    background:rgb(30, 30, 30);
+    padding-bottom:20%
+}
+#fullday_Workshop_container header h1{
+    background:rgb(37, 82, 178);
+    color:white;
+    padding:2%;
+    width:80%;
+    margin:auto;
+    text-align:center;
+    border-radius: 5px;
+    
+}
+#fullday_Workshop_container section p{
+    text-align: center;
+    margin:15% auto;
+    width:80%;
+    color:rgb(122, 122, 122);
+}
+@media only screen and (min-width: 1000px){
+    #fullday_Workshop_container article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    #fullday_Workshop_container section p{
+        margin:5% auto 7%;
+    }
+}

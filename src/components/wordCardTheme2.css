@@ -1,0 +1,31 @@
+.theme1 div{
+    background:rgb(155, 23, 23);
+    color:white;
+    display: flex;
+    box-shadow: 1px 5px 10px black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin: 20% auto;
+    border-radius: 5px;
+
+}
+.theme1 div img{
+    border-radius: 50%;
+    width:50vw;
+    height:50vw;
+    filter:grayscale(50%);
+    border:5px solid white;
+}
+
+.theme1 div p{
+    border-top:1px dashed white;
+    width:80%;
+
+    padding:5%;
+    text-align: center;
+}
+.theme1 div *{
+    margin:5% auto;
+}

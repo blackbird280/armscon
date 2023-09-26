@@ -1,0 +1,25 @@
+.qwe{
+   
+    width:30%;
+    
+    
+    
+   
+   
+}
+@media only screen and (min-width: 1000px){
+    .qwe{
+        width:45%;
+        
+    }
+    #events_cards_container{
+   
+    
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10%;
+    }
+}

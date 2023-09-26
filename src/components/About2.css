@@ -1,0 +1,22 @@
+#about2_container #main_heading{
+    text-align: center;
+    padding:15% 0%;
+
+}
+#about2_container{
+    
+}
+#about2_container p{
+  
+}
+#about2_container p p{
+    text-align: center;
+    width:80%;
+    
+    margin:0% auto 5% ;
+}
+#about_armscon_details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,95 @@
+#CoolTestimonialsContainer{
+    width:100%;
+    overflow: hidden;
+    
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    /* Optional: Set a specific width for the pre tag */
+    width:80vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+  }
+
+#fff_container{
+    width:100%;
+    margin:0px;
+    padding:3% 0%;
+   
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+#fff_container img {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-left:5%;
+    margin-right: 2%;
+    border:2px solid rgb(181, 0, 0);
+}
+#CoolTestimonialsContainer #ffffas{
+    overflow-x: scroll;
+    
+}
+#CoolTestimonialsContainer main{
+    width:670vw;
+    display: flex;
+    align-items: center;
+}
+#CoolTestimonialsContainer h1{
+    text-align: center;
+    padding:0% 5% 10% ;
+    font-weight: 400;
+}
+#testimonials_cool_container{
+    border:1px solid black;
+    width:80vw;
+    height:50vh;
+    display: flex;
+    margin:20px;
+    justify-content: space-between;
+
+    
+    border:1.4px solid black;
+    border-radius: 5px;
+}
+#main_cool_card_container{
+    display:flex;
+    padding:10px;
+}
+#main_cool_card_container #cont_1{
+    
+}
+#main_cool_card_container #cont_1 img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:2px solid rgb(171, 0, 0);
+}
+#main_cool_card_container #cont_2 h2{
+    padding:0px 20px 5px;
+    font-size: medium;
+    font-weight: 500;
+}
+#main_cool_card_container #cont_2 h4{
+    padding:0px 0px 0px 20px;
+    font-weight: 400;
+    color:rgb(85, 85, 85);
+    font-size: smaller;
+    
+}
+#main_cool_card_container #cont_2 p{
+    text-align: left;
+    font-size: 3.5vw;
+    padding:10px ;
+    font-weight: 400;
+}
+#redmore_btn{
+    width:100%;
+    text-align: center;
+    margin:4% 0%;
+
+}

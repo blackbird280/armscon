@@ -1,0 +1,28 @@
+#Workshop_container{
+    width:90%;
+    
+    margin:auto;
+    text-align: center;
+    box-shadow: 1px 2px 10px rgb(126, 126, 126);
+    padding:2%;
+    color:green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+#Workshop_container h1{
+    padding:4%;
+
+}
+#Workshop_container p{
+    width:80%;
+    margin:2% auto;
+    border:1px solid rgb(89, 182, 100);
+    border-radius: 5px;
+    padding:20px;
+}
+#Workshop_container img{
+    margin:5% auto;
+    filter:grayscale(0%);
+}

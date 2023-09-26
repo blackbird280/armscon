@@ -1,0 +1,30 @@
+#Starnight_container{
+    width:90%;
+    padding:2%;
+    margin:auto;
+    padding-bottom: 5%;
+    background:linear-gradient(rgba(243, 243, 243, 0.955),rgba(190, 17, 209, 0.275),rgb(174, 0, 255)) , url('https://d28z68mqtlsfzd.cloudfront.net/app/uploads/2019/03/26135353/pexels-photo-167523-1024x678.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 1px 10px 20px black;
+}
+
+#Starnight_container img{
+    filter: grayscale(0%);
+    
+}
+#Starnight_container h1{
+    margin:20% 5%; 
+}
+#Starnight_container p{
+    background:rgba(0, 0, 0, 0.809);
+    backdrop-filter:blur(50px);
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    padding:5% 2%;
+    width:80%;
+    margin:20% auto;
+}

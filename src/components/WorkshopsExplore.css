@@ -1,0 +1,15 @@
+#workshopExplore_container{
+    background:rgb(244, 244, 244);
+    margin:0%;
+    height:100vh;
+   
+}
+#workshopExplore_container main{
+    margin:15% 0%;
+}
+#workshopExplore_container header h1{
+    padding:5%;
+    text-align:center;
+    
+
+}

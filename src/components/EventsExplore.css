@@ -1,0 +1,39 @@
+#events_Explore_container{
+    background:rgb(20,20,20);
+    padding-bottom: 40%;
+}
+#events_Explore_container #subheading_container{
+    color:rgb(125, 125, 125);
+    width:80%;
+    margin:10% auto;
+    text-align:Center
+}
+#events_Explore_container header{
+    padding:4%;
+    color:white;
+    text-align: center;
+    border-bottom: 5px none rgb(179, 0, 255);
+    box-shadow: 0px 0px 20px rgb(179, 0, 255);
+    font-size:6vw;
+    text-shadow: 0px 0px 9px rgb(179, 0, 255);
+}
+#events_Explore_container main #popop{
+    width:80%;
+    margin:15% auto;
+    
+}
+@media only screen and (min-width: 1000px){
+    #events_Explore_container{
+      
+    }
+    #events_Explore_container header{
+        font-size:larger;
+    }
+    #events_Explore_container main{
+      
+    }
+    #events_Explore_container main #popop{
+        width:60%;
+        margin:5% auto;     
+    }
+}

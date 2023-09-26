@@ -1,0 +1,13 @@
+
+@media only screen and (min-width: 1000px){
+    #planc_container_j{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #planc_container_j #palnc_card{
+        width: 40%;
+        
+    }
+}

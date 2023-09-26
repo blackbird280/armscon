@@ -1,0 +1,22 @@
+#Events_container{
+    width:90%;
+    color:rgb(114, 0, 167);
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    margin:5% auto;
+    padding:2%;
+    box-shadow: 1px 2px 20px rgb(151, 151, 151);
+    
+}
+#Events_container p{
+    margin:5%;
+    border:1px solid purple;
+    border-radius:5px;
+    padding:20px;
+}
+#Events_container h1{
+    margin:5%;
+}
+#Events_container button{
+
+}

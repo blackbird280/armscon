@@ -1,0 +1,13 @@
+#physiotherapy_container{
+    background-color: rgb(30,30,30);
+    padding-bottom:20%
+}
+#physiotherapy_container header{
+    background:rgb(255, 153, 0);
+    padding:2%;
+    width:80%;
+    text-align: center;
+    margin:0% auto 15%;
+    border-radius: 5px;
+    color:white;
+}

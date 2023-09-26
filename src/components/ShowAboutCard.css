@@ -1,0 +1,79 @@
+#collapse_card_container{
+    width:100%;
+    background:rgb(255, 255, 255);
+    color:rgb(46, 46, 46);
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow:1px 5px 5px 1px rgba(59, 59, 59, 0.263);
+    padding:0px 0px 20px 0px;
+    transition-property: transform;
+    transition-duration:1s;
+    transition-timing-function: ease-in-out;
+    border-radius: 10px ;
+    margin:10% auto;
+}
+#collapse_card_container img{
+    width:20rem;
+    height:20rem;
+    border-radius: 50%;
+    margin:10%;
+    background-color: red;
+    filter: grayscale(10%);
+}
+#collapse_card_container h1{
+    text-align:center;
+    padding:15px 0px;
+    border-bottom:1px  solid rgb(116, 116, 116);
+    width:80%;
+    margin:auto;
+}
+
+#collapse_card_container p{
+    padding:0px;
+    height:0px;
+    margin-bottom: 20px;
+    overflow:hidden;
+    font-size: smaller;
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    
+}
+#section_of_collapse_card2 span{
+    
+    font-size:larger
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background:rgb(100,100,100)
+}
+@media only screen and (min-width: 1000px){
+    #collapse_card_container img{
+        width:15rem;
+        height:15rem;
+        border:5px solid rgb(180, 0, 0);
+    }
+    #collapse_card_container{
+        background:none;
+        
+        box-shadow:1px 5px 15px  rgba(255, 255, 255, 0.719);
+        color:white;
+        transition: 0.2s;
+    }
+    #collapse_card_container h1{
+        color:rgb(180, 0, 0);
+        transition: 0.2s;
+    }
+    #collapse_card_container:hover{
+        box-shadow:1px 5px 15px  rgba(179, 0, 0, 0.719);
+    }
+    #collapse_card_container:hover h1{
+        text-shadow: 0px 0px 5px rgb(255, 0, 0);
+        
+    }
+}

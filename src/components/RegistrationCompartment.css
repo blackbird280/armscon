@@ -1,0 +1,47 @@
+#register_compartment{
+    padding:10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background:linear-gradient(rgb(17, 17, 17),rgb(11, 11, 11))
+}
+#register_compartment h1{
+    margin:10% auto;
+    font-size: 5rem;
+    color:white;
+    text-shadow: 0px 0px 20px white;
+    font-family:'Comic Sans MS';
+}
+#register_compartment h2{
+    
+    
+    text-shadow: 0px 0px 10px rgb(226, 0, 0);
+    
+   
+    font-weight: 1000;
+    color:rgb(255, 0, 149);
+ 
+}
+#register_compartment div{
+    margin:5% ;
+}
+mark{
+    background:none;
+    color:white;
+   
+    
+}
+
+
+
+@media only screen and (min-width: 1000px){
+    #register_compartment{
+        
+        background: linear-gradient(rgba(22, 22, 22, 0.806),rgba(0, 0, 0, 0.882),rgba(34, 34, 34, 0.806)),url('../assets/img.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}

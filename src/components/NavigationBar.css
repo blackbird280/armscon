@@ -1,0 +1,138 @@
+#collapsible_navbar{
+    width:auto;
+    margin:0px;
+    position: fixed;
+    overflow-y: hidden;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    text-align: center;
+    padding:0px;
+    height: 100vh;
+}
+#trademark_container{
+    position: absolute;
+    bottom: 15%;
+    color:white;
+    width:100%;
+
+}
+#collapsible_navbar ul{
+  
+}
+#collapsible_navbar *{
+    text-decoration: none;
+    
+}
+#collapsible_navbar h1{
+    padding:6% 2%;
+    text-align:center;
+    color:red;
+    font-size:7vw;
+    margin-bottom: 15%;
+
+}
+#collapsible_navbar nav #trademark{
+    color:white;
+    position: absolute;
+    width:100%;
+    font-weight: lighter;
+    background-color: none;
+    bottom: 20px;
+}
+#collapsible_navbar ul,ol{
+    list-style-type: none;
+}
+#collapsible_navbar nav ul{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width:0vw;
+    background:rgb(30, 30, 30);
+    box-shadow: 1px 10px 20px black;
+    transition: 0.2s;
+    
+}
+#navbar_container{
+    overflow-y: scroll;
+}
+#collapsible_navbar nav ul li{
+    padding:5%;
+    margin:2% 10%;
+    
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.margin_btween{
+    margin-right:5px;
+}
+.link_style{
+    color:rgb(120,120,120);
+    
+}
+.link_style :visited{
+    color:rgb(120,120,120);
+
+}
+
+#events_competetions_container #list_of_items_in_events {
+    height:0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    transition-property:height;
+    transition-duration: 0.2s;
+}
+#events_competetions_container #list_of_items_in_events li{
+    display: inline-block;
+    
+
+}
+.selected_list_item{
+    color:rgb(30,30,30);
+    border:1px solid red;
+}
+#events_competetions_container p{
+    display: flex;
+}
+
+
+
+#collapsible_navbar ::-webkit-scrollbar {
+    width: 5px;
+    visibility: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /* Track */
+#collapsible_navbar ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgb(30, 30, 30); 
+    background-color: rgb(30,30,30);
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+#collapsible_navbar ::-webkit-scrollbar-thumb {
+    background: rgb(31, 31, 31); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+#collapsible_navbar ::-webkit-scrollbar-thumb:hover {
+    background: #202020; 
+  }
+
+  @media only screen and (min-width: 1000px){
+    #collapsible_navbar nav ul{
+        background:rgb(10,10,10);
+        
+    }
+    #collapsible_navbar h1{
+        font-size:3rem;
+        padding:3%;
+    }
+  }

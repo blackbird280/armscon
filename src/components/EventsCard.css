@@ -1,0 +1,63 @@
+#events_card_container fieldset{
+    
+    
+    text-align:center;
+    padding:2%;
+   
+    border-radius: 5px;
+    color:white;
+    border:4px dotted white;
+    box-shadow: 0px 5px 40px rgb(255, 255, 255);
+    
+}
+#events_card_container fieldset h1{
+    font-size: 6vw;
+    margin: 5% auto;
+    text-shadow: 0px 0px 10px rgb(255, 0, 255);
+}
+#events_card_container fieldset h2{
+    font-size:6vw;
+    margin:10% auto;
+    color:rgb(233, 233, 233);
+}
+#events_card_container fieldset h2 span{
+    text-shadow: 3px 0px 5px purple;
+}
+#events_card_container fieldset legend{
+    text-align:center;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+   
+    padding:15%;
+    background:rgb(20, 20, 20);
+    color:rgb(223, 223, 223);
+    box-shadow: 0px 5px 10px rgb(200, 0, 255);
+
+
+}
+#events_card_container  a{
+    color:none;
+    text-decoration: none;
+    display:inline;
+}
+#events_card_container fieldset section{
+   
+    border-right:5px dotted rgb(200, 0, 255);
+    border-left:5px dotted rgb(200, 0, 255);
+}
+@media only screen and (min-width: 1000px){
+    #events_card_container fieldset{
+        
+
+    }
+    #events_card_container fieldset legend{
+        padding:4%;
+    }
+    #events_card_container fieldset h2{
+        font-size:4vw;
+        
+    }
+    #events_card_container fieldset h2{
+        margin:2% auto;
+    }
+}

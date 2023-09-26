@@ -1,0 +1,12 @@
+#starnightA_container main{
+    height:90vh;
+background-color: black;
+color:white;
+text-align: center;
+text-shadow: 0px 0px 10px rgb(255, 0, 221);
+font-size:8vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}

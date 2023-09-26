@@ -1,0 +1,28 @@
+#nursing_workshop_container{
+    background:rgb(30,30,30);
+    padding-bottom:20%
+}
+#nursing_workshop_container header h1{
+    background-color: rgb(200,0,0);
+    color:white;
+    padding:4%;
+    text-align:center;
+    width:80%;
+    margin:0% auto ;
+    border-radius: 5px;
+    
+}
+#nursing_workshop_container section p{
+    color:rgb(97, 97, 97);
+    text-align:center;
+    width:80%;
+    margin:20% auto;
+}
+@media only screen and (min-width: 1000px){
+    #nursing_workshop_container header h1{
+        padding:2%;
+    }
+    #nursing_workshop_container section p{
+        margin:5% auto;
+    }
+}

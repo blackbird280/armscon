@@ -1,0 +1,27 @@
+#display_card_container main{
+    background:none;
+    
+    color:white;
+    text-shadow: 0px 0px 20px rgb(255, 158, 54);
+    width:80%;
+    margin:15% auto;
+    border:5px dotted rgb(255, 174, 0);
+    border-radius: 10px;
+    padding:5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+#display_card_container main div{
+    margin:5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#display_card_container main div h1{
+    font-size:large;
+
+}

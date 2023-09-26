@@ -1,0 +1,38 @@
+.testimonial_container fieldset{
+    border-radius:0px;
+    margin:0px;
+    text-align:center;
+    border:none;
+    padding:20px;
+    background: linear-gradient(rgb(255, 255, 255),rgb(201, 201, 201),rgb(255, 255, 255));
+}
+
+#testimonial_paragraph{
+    margin:10% 20%;
+    font-size: smaller;
+}
+
+@media only screen and (min-width: 1000px){
+    .testimonial_container{
+        padding:10% 0%;
+    }
+    #testimonial_paragraph{
+        color:white;
+    }
+    .testimonial_container fieldset{
+        background:none;
+        width:60%;
+        border-left:5px solid rgb(173, 0, 0);
+        margin:auto;
+    } 
+    .testimonial_container fieldset #sc_container{
+        width: 45%;
+        display: inline-block;
+
+        margin:2%;
+    }
+    #testimonial_heading{
+        border-bottom: 5px solid rgb(173, 0, 0);
+        color:red;
+    }
+}

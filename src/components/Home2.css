@@ -1,0 +1,31 @@
+#home2_container{
+    height:70vh;
+    width:100%;
+}
+#home2_container section{
+    background:linear-gradient(rgba(55, 55, 55, 0.122),rgba(244, 0, 134, 0.506),rgba(0, 0, 0, 0.963)),url('https://picjumbo.com/wp-content/uploads/crowds-of-people-partying-at-a-live-concert-free-photo-2210x1474.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+#home2_container section article{
+   
+}
+#home2_container section article h1{
+    font-size: 15vw;
+    font-weight: 600;
+}
+#home2_container section article h3{
+    text-align: center;
+    font-size: 7vw;
+}
+#home2_container section #btn_Cont{
+    background-color: purple;
+    width:60%;
+}

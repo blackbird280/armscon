@@ -1,0 +1,36 @@
+.theme1 div{
+    background-color: rgb(60, 60, 60);
+    width:90%;
+    margin:20% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:5% 2%;
+    color:white;
+    border-radius:10px;
+    box-shadow: 1px 5px 10px black;
+
+}
+.theme1 div img{
+    border-radius: 50%;
+    filter:grayscale(0%);
+    
+    width:50vw;
+    height:50vw;
+    border:5px solid white;
+    box-shadow: 1px 5px 20px rgb(173, 173, 173);
+}
+.theme1 button{
+    color:rgb(55, 55, 55);
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(65, 65, 65);
+}
+.theme1 div p{
+    text-align:center;
+    width:80%;
+    margin:10% auto;
+}
+.theme1 div *{
+    margin:7% 2%;
+}

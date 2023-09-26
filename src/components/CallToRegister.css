@@ -1,0 +1,19 @@
+#callto_container{
+    margin-bottom: 25%;
+}
+#callto_container h1{
+    font-size: 6.5vw;
+    text-align:center;
+}
+#callto_container h2{
+    font-size:medium;
+    padding:5% 0%;
+    text-align:Center;
+    font-weight: 450;
+}
+#rgt_btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

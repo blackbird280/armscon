@@ -1,0 +1,28 @@
+#CE_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background:linear-gradient(rgb(0, 0, 0),rgb(47, 47, 47),rgb(0, 0, 0));
+    height:auto;
+}
+#CE_container header{
+    background:black;
+    width:100%;
+    padding:2%;
+    color:white;
+    text-align: center;
+    box-shadow: 1px 5px 10px black;
+}
+.circle_Cards_container_datasets{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:10% auto;
+}
+@media only screen and (min-width: 1000px){
+    .circle_Cards_container_datasets{
+        margin:5% auto;
+    }
+    
+}

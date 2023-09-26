@@ -1,0 +1,32 @@
+#plans_container{
+    width:80%;
+    margin:22% auto;
+    
+    border-radius: 10px;
+    text-align: center;
+    border:none;
+    
+}
+#plans_container section h1{
+    padding:5%;
+   
+    margin-bottom: 5%;
+}
+
+#offering{
+    margin:1% auto;
+    text-align:left;
+}
+#plans_container ul{
+    padding:5%;
+}
+#plans_container ul li{
+    margin:5% 15%;
+    text-shadow: 0px 0px 4px white;
+    font-size:larger;
+    font-style: normal;
+    font-weight: 200;
+}
+#plans_container button{
+    margin:5% auto;
+}

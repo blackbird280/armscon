@@ -1,0 +1,36 @@
+#uhsr_container{
+    width:100%;
+    display: flex;
+    padding:10% 0%; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#vvv_cont{
+    text-align:center;
+    margin:20% auto;
+}
+#dialog_box_container img{
+    width: 70vw;
+    height:70vw;
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+}
+#uhsr_about_holder h1{
+    font-weight: bolder;
+    font-size: 10vw;
+    text-align: center;
+}
+#uhsr_about_holder p{
+    width:80%;
+    margin:10% auto;
+    text-align:center;
+
+}
+#open_uhsr_btn{
+    padding:20px;
+    width:80%;
+    font-size: large;
+}
