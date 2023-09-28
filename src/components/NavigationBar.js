@@ -59,7 +59,7 @@ export default function NavigationBar({props}) {
                     <p>
                        
                     </p>
-                    <Link className='link_style' to='/gallery'><li className='blick'><MonochromePhotosIcon className='margin_btween'/>Gallery</li></Link>
+                    
                     <li><Button variant='outlined' color='error' onClick={()=>window.location.href="https://login.armscon.in/"}>
                         <PersonIcon/> User Login
                         </Button></li>

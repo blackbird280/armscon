@@ -36,7 +36,8 @@ const fullday_data=[
         new fullday('Fitness testing in Sports Persons',['October 20,2023'],"https://blog.acharya.ac.in/wp-content/uploads/2021/07/sports_injuries.jpg"),
         
     ],
-    ['Basic Life support',[''],'https://th.bing.com/th/id/OIP.CFr8FMF-w5Bwu_0qNqpJ8QHaEo?w=316&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7']
+    [
+        new fullday('Basic Life support',['October 19 , 2023'],'https://th.bing.com/th/id/OIP.CFr8FMF-w5Bwu_0qNqpJ8QHaEo?w=316&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7')]
     
 ]
 export default fullday_data

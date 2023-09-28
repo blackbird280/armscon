@@ -9,8 +9,9 @@ class Activities{
 
 const data=[
     [
-        new Activities('Dusk of Dance',['Saundarya:Folk dance competition (Solo / Duet)','Take up the Challenge: Dance Battle','Swing Squad : Group Dance Competition',"Shake it Up: Hip hop dance (Solo / Duet)"],"https://th.bing.com/th/id/OIP.MFu_FQK8Wis3EnHJ5CQ4-gHaEK?pid=ImgDet&rs=1"),
-        new Activities('Sing and Soar',['Sugam Sangeet : Folk Singing Competition (Solo/Duet)','Beat Boxing (Solo / Duet)','Clash : Rap Battle'],"https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80")
+        new Activities('Dusk of Dance',['Saundarya:Folk dance competition (Solo / Duet)','Take up the Challenge: Dance Battle','Swing Squad : Group Dance Competition',"Shake it Up: Hip hop dance (Solo / Duet)","Dance Delirium : Dance Competetion (Solo / Duet)"],"https://th.bing.com/th/id/OIP.MFu_FQK8Wis3EnHJ5CQ4-gHaEK?pid=ImgDet&rs=1"),
+        new Activities('Sing and Soar',['Sugam Sangeet : Folk Singing Competition (Solo/Duet)','Beat Boxing (Solo / Duet)','Clash : Rap Battle'],"https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"),
+        new Activities('The Theatrics',['Bolte Chehre : The Mime Competetion',"Rangmanch : The Skit Competetion","Sambhodhan : Nukkad Natak Competetion","Swayambhu : Mono Act Competetion"],"https://th.bing.com/th/id/OIP.L1SXBkSEG1mTj5mSpNWG1wHaDt?w=315&h=175&c=7&r=0&o=5&dpr=1.3&pid=1.7")
     ],
     [
         new Activities('Formal events',[`DiagnoVista: Clinical case presentation`,'WISDOM BLIZZARD : Research paper presentation','CLINICAL BILLBOARD : Clinical poster presentation','Item 4'],"https://accidentalcreative.com/wp-content/uploads/2013/07/meetings.jpg"),
