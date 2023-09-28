@@ -15,13 +15,7 @@ export default function Footer() {
               +91 9869141685
             </li>
             <br/>
-            <li>
-              <small>
-                <a href="https://www.instagram.com/ak.shansh.kumar/"style={{
-                  color:'rgb(150,150,150)',textDecoration:'none'
-                }}>Developed by: Akshansh Kumar</a>
-              </small>
-            </li>
+            
           </ul>   
           <ul>
             <h1>Follow Us On</h1>  
@@ -29,9 +23,7 @@ export default function Footer() {
             <li>
               <a href="https://www.instagram.com/armscon.uhsr/"style={{color:'white',textDecoration:'none'}}>Instagram</a>
             </li>
-            <li>
-              Youtube
-            </li>
+            
             
           </ul>        
         </section>
