@@ -1,21 +1,22 @@
-from PIL import Image
 import os
+import json
 
-folder=os.listdir('C:/Users/DELL/Desktop/photos');
+input_folder="d:/react/armscon2/txt.txt";
+file=open(input_folder,'r');
+string_file=file.read().split(',');
+new_string_file=string_file[1].split('/')
 i=0;
-"""while i<len(folder):
-    img=Image.open('C:/Users/DELL/Desktop/photos/{}'.format(folder[i]));
-    img.save('C:/Users/DELL/Desktop/armscon/{}'.format(folder[i]),format='JPEG', quality=5);
-    img.close()
-    print(folder[i]+" done!");
-    i=i+1;"""
-
-while i<len(folder):
-    img_size=os.path.getsize('C:/Users/DELL/Desktop/armscon/{}'.format(folder[i]));
-    x=img_size;
-    y="";
-    z=30*1024;
-    y=x/z;
-    img=Image.open('C:/Users/DELL/Desktop/photos/{}'.format(folder[i]));
-    img.save('C:/Users/DELL/Desktop/armscon/{}'.format(folder[i]),format='JPEG', quality=5);
+main_arr=[];
+main_main_Arr=[]
+while i<len(string_file):
+    new_string_file=string_file[i].split('/');
+    main_arr.append(new_string_file[5]);
+    dic= {
+        "link":main_arr[i]
+    }
+    main_main_Arr.append(dic);
     i=i+1;
+
+json_file=json.dumps(main_main_Arr);
+json_k=open('d:/react/armscon2/wwe.json','w');
+json_k.write(json_file)

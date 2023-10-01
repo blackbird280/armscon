@@ -38,7 +38,7 @@ export default function App() {
             
      
            
-           
+           <Route path='/gallery' element={<Gallery/>}/>
             <Route path='/test' element={<Testing/>}/>
             
         </Routes>

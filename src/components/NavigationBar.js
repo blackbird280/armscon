@@ -56,6 +56,7 @@ export default function NavigationBar({props}) {
                     
                     
                     <Link to="/workshops"className='link_style'><li className='blick'><FeedIcon className='margin_btween'/>Workshops</li></Link>
+                    <Link to="/gallery"className='link_style'><li className='blick'><MonochromePhotosIcon className='margin_btween'/>Gallery</li></Link>
                     <p>
                        
                     </p>

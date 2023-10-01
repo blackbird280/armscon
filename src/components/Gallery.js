@@ -39,7 +39,7 @@ export default function Gallery(props) {
     <section>
       {
         data.map(
-            (item)=><img src={item.link} id='short_images'onClick={()=>handleClickOpen(item.link)}/>
+            (item)=><img src={`https://drive.google.com/uc?id=${item.link}`} id='short_images'onClick={()=>handleClickOpen(item.link)}/>
         )
       }
     </section>
