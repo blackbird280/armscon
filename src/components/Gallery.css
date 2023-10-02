@@ -6,20 +6,20 @@
 }
 
 #gallery_container header{
-    background-color:rgb(30,30,30);
-    color:white;
+    
+    color:rgb(220, 0, 132);
     padding:2%;
     text-align:center;
-    box-shadow: 0px 0px 10px black;
-    margin-bottom: 20%;
+   
+    margin-bottom: 10%;
     z-index:-1000;
 }
 #gallery_container main{
     margin:10%;
-    font-size:larger;
-    color:rgb(48, 48, 48);
+    font-size:medium;
+    color:rgb(115, 115, 115);
     text-align:Center;
-    
+    font-weight: 600;
 }
 #gallery_container section{
     display: flex;
@@ -32,7 +32,7 @@
     width:80px;
     height:80px;
     margin:1px;
-    filter:grayscale(40%);
+    filter:grayscale(70%);
     transition: 0.2s;
     
 }

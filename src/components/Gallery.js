@@ -13,6 +13,8 @@ import DialogTitle from '@mui/material/DialogTitle';
 import FloatigBtn from './FloatigBtn';
 import NavigationBar from './NavigationBar';
 import Top from './Top';
+import Coolhr from '../info/Coolhr';
+
 export default function Gallery(props) {
     const [open, setOpen] = useState(false);
     const [src,setSrc]=useState('');
@@ -34,12 +36,13 @@ export default function Gallery(props) {
             </h1>
         </header>
         <main>
-            <h2>Special moments captured</h2>
+            <h4>Special moments captured on camera of last year's armscon held on 14 October 2022 at PGIMS , Rohtak , Haryana!</h4>
         </main>
+        <Coolhr width="20%"/>
     <section>
       {
         data.map(
-            (item)=><img src={`https://drive.google.com/uc?id=${item.link}`} id='short_images'onClick={()=>handleClickOpen(item.link)}/>
+            (item)=><img src={`https://drive.google.com/uc?id=${item.link}`} id='short_images'onClick={()=>handleClickOpen(`https://drive.google.com/uc?id=${item.link}`)}/>
         )
       }
     </section>
